@@ -689,17 +689,17 @@ extension JCChatViewController: SAIToolboxInputViewDataSource, SAIToolboxInputVi
             present(imagePicker, animated: true, completion: nil)
         case "page:video_s":
             present(videoPicker, animated: true, completion: nil)
-        case "page:location":
-            let vc = JCAddMapViewController()
-            vc.addressBlock = { (dict: Dictionary?) in
-                if dict != nil {
-                    let lon = Float(dict?["lon"] as! String)
-                    let lat = Float(dict?["lat"] as! String)
-                    let address = dict?["address"] as! String
-                    self.send(address: address, lon: NSNumber(value: lon!), lat: NSNumber(value: lat!))
-                }
-            }
-            navigationController?.pushViewController(vc, animated: true)
+//        case "page:location":
+//            let vc = JCAddMapViewController()
+//            vc.addressBlock = { (dict: Dictionary?) in
+//                if dict != nil {
+//                    let lon = Float(dict?["lon"] as! String)
+//                    let lat = Float(dict?["lat"] as! String)
+//                    let address = dict?["address"] as! String
+//                    self.send(address: address, lon: NSNumber(value: lon!), lat: NSNumber(value: lat!))
+//                }
+//            }
+//            navigationController?.pushViewController(vc, animated: true)
         case "page:businessCard":
             let vc = FriendsBusinessCardViewController()
             vc.conversation = conversation
@@ -762,11 +762,11 @@ extension JCChatViewController: JCMessageDelegate {
     }
 
     func message(message: JCMessageType, location address: String?, lat: Double, lon: Double) {
-        let vc = JCAddMapViewController()
-        vc.isOnlyShowMap = true
-        vc.lat = lat
-        vc.lon = lon
-        navigationController?.pushViewController(vc, animated: true)
+//        let vc = JCAddMapViewController()
+//        vc.isOnlyShowMap = true
+//        vc.lat = lat
+//        vc.lon = lon
+//        navigationController?.pushViewController(vc, animated: true)
     }
     
     func message(message: JCMessageType, image: UIImage?) {
@@ -1097,12 +1097,12 @@ extension JCChatViewController: SAIInputBarDelegate, SAIInputBarDisplayable {
         if text.length == currentIndex + 1 {
             inputBar.text = text + displayName + " "
         } else {
-            let index1 = text.index(text.endIndex, offsetBy: currentIndex - text.length + 1)
-            let prefix = text.substring(with: Range<String.Index>(text.startIndex..<index1))
-            let index2 = text.index(text.startIndex, offsetBy: currentIndex + 1)
-            let suffix = text.substring(with: Range<String.Index>(index2..<text.endIndex))
-            inputBar.text = prefix + displayName + " " + suffix
-            let _ = self.updateRemids(inputBar, "@" + displayName + " ", range, currentIndex)
+//            let index1 = text.index(text.endIndex, offsetBy: currentIndex - text.length + 1)
+//            let prefix = text.substring(with: Range<String.Index>(text.startIndex..<index1))
+//            let index2 = text.index(text.startIndex, offsetBy: currentIndex + 1)
+//            let suffix = text.substring(with: Range<String.Index>(index2..<text.endIndex))
+//            inputBar.text = prefix + displayName + " " + suffix
+//            let _ = self.updateRemids(inputBar, "@" + displayName + " ", range, currentIndex)
         }
         self.reminds.append(remind)
         self.reminds.sort(by: { (r1, r2) -> Bool in

@@ -132,8 +132,8 @@ final class ThemeManager: NSObject {
         let nameLength = name.characters.count
 
         if imagePath == nil && name.hasSuffix("@2x") && nameLength > 3 {
-            let index = name.index(name.endIndex, offsetBy: -3)
-            name = name.substring(with: Range<String.Index>(name.startIndex ..< index))
+//            let index = name.index(name.endIndex, offsetBy: -3)
+//            name = name.substring(with: Range<String.Index>(name.startIndex ..< index))
         }
 
         if imagePath == nil && !name.hasSuffix("@2x") {

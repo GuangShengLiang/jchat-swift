@@ -13,11 +13,11 @@ import JMessage
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    let JMAPPKEY = <#填写你的 JMessage AppKey#>
+    let JMAPPKEY = "70f52a8c5829884568ce751c"
     // 百度地图 SDK AppKey，请自行申请你对应的 AppKey
     let BMAPPKEY = "BNsPzc36d1GBRD9zC3QGO3wUFbY3P3qv"
     
-    var _mapManager: BMKMapManager?
+//    var _mapManager: BMKMapManager?
     
     fileprivate var hostReachability: Reachability!
     
@@ -52,9 +52,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         JMessage.setupJMessage(launchOptions, appKey: JMAPPKEY, channel: nil, apsForProduction: true, category: nil, messageRoaming: true)
         _setupJMessage()
         
-        _mapManager = BMKMapManager()
-        BMKMapManager.setCoordinateTypeUsedInBaiduMapSDK(BMK_COORDTYPE_BD09LL)
-        _mapManager?.start(BMAPPKEY, generalDelegate: nil)
+//        _mapManager = BMKMapManager()
+//        BMKMapManager.setCoordinateTypeUsedInBaiduMapSDK(BMK_COORDTYPE_BD09LL)
+//        _mapManager?.start(BMAPPKEY, generalDelegate: nil)
         
         hostReachability = Reachability(hostName: "www.apple.com")
         hostReachability.startNotifier()

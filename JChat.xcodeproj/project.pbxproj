@@ -63,8 +63,6 @@
 		B417BD191F25F416009E27CF /* JCFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B417BD181F25F416009E27CF /* JCFileManager.swift */; };
 		B43BA3781E8A2F0000565DB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43BA3771E8A2F0000565DB3 /* AppDelegate.swift */; };
 		B43BA37F1E8A2F0000565DB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B43BA37E1E8A2F0000565DB3 /* Assets.xcassets */; };
-		B43BA38D1E8A2F0000565DB3 /* JChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43BA38C1E8A2F0000565DB3 /* JChatTests.swift */; };
-		B43BA3981E8A2F0000565DB3 /* JChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43BA3971E8A2F0000565DB3 /* JChatUITests.swift */; };
 		B43BA3F41E8A2FF500565DB3 /* emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B43BA3A81E8A2FF500565DB3 /* emoticons.bundle */; };
 		B43BA3F51E8A2FF500565DB3 /* JCCEmoticon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43BA3AD1E8A2FF500565DB3 /* JCCEmoticon.swift */; };
 		B43BA3F61E8A2FF500565DB3 /* JCCEmoticonGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43BA3AE1E8A2FF500565DB3 /* JCCEmoticonGroup.swift */; };
@@ -110,9 +108,9 @@
 		B43BA4221E8A2FF500565DB3 /* UIView+JChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43BA3ED1E8A2FF500565DB3 /* UIView+JChat.swift */; };
 		B43BA4241E8A2FF500565DB3 /* JCConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43BA3F11E8A2FF500565DB3 /* JCConstants.swift */; };
 		B43BA4251E8A2FF500565DB3 /* JCFPSLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43BA3F21E8A2FF500565DB3 /* JCFPSLabel.swift */; };
-		B43BA42B1E8A305500565DB3 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B43BA42A1E8A305500565DB3 /* libsqlite3.tbd */; };
-		B43BA42D1E8A306700565DB3 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B43BA42C1E8A306700565DB3 /* libresolv.tbd */; };
-		B43BA42F1E8A307100565DB3 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B43BA42E1E8A307100565DB3 /* libz.tbd */; };
+		B43BA42B1E8A305500565DB3 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B43BA42A1E8A305500565DB3 /* libsqlite3.tbd */; settings = {ATTRIBUTES = (Weak, ); }; };
+		B43BA42D1E8A306700565DB3 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B43BA42C1E8A306700565DB3 /* libresolv.tbd */; settings = {ATTRIBUTES = (Weak, ); }; };
+		B43BA42F1E8A307100565DB3 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B43BA42E1E8A307100565DB3 /* libz.tbd */; settings = {ATTRIBUTES = (Weak, ); }; };
 		B43BA4311E8A307B00565DB3 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B43BA4301E8A307B00565DB3 /* MobileCoreServices.framework */; };
 		B43BA4331E8A308900565DB3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B43BA4321E8A308900565DB3 /* AudioToolbox.framework */; };
 		B43BA4351E8A309300565DB3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B43BA4341E8A309300565DB3 /* Security.framework */; };
@@ -131,7 +129,6 @@
 		B43F70311EA87F7C0076D5AF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B43F70301EA87F7C0076D5AF /* CoreLocation.framework */; };
 		B43F70331EA87F910076D5AF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B43F70321EA87F910076D5AF /* QuartzCore.framework */; };
 		B43F70351EA87FA10076D5AF /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B43F70341EA87FA10076D5AF /* OpenGLES.framework */; };
-		B43F70371EA880280076D5AF /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B43F70361EA880280076D5AF /* libstdc++.6.0.9.tbd */; };
 		B43F70481EA883DA0076D5AF /* JCAddMapViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B43F703A1EA883DA0076D5AF /* JCAddMapViewController.mm */; };
 		B43F704A1EA883DA0076D5AF /* icon_baidu_marker.png in Resources */ = {isa = PBXBuildFile; fileRef = B43F703D1EA883DA0076D5AF /* icon_baidu_marker.png */; };
 		B43F704B1EA883DA0076D5AF /* jiantou2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B43F703E1EA883DA0076D5AF /* jiantou2@2x.png */; };
@@ -321,11 +318,7 @@
 		B43BA37E1E8A2F0000565DB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B43BA3831E8A2F0000565DB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B43BA3881E8A2F0000565DB3 /* JChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B43BA38C1E8A2F0000565DB3 /* JChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JChatTests.swift; sourceTree = "<group>"; };
-		B43BA38E1E8A2F0000565DB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B43BA3931E8A2F0000565DB3 /* JChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B43BA3971E8A2F0000565DB3 /* JChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JChatUITests.swift; sourceTree = "<group>"; };
-		B43BA3991E8A2F0000565DB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B43BA3A81E8A2FF500565DB3 /* emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = emoticons.bundle; sourceTree = "<group>"; };
 		B43BA3AD1E8A2FF500565DB3 /* JCCEmoticon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCCEmoticon.swift; sourceTree = "<group>"; };
 		B43BA3AE1E8A2FF500565DB3 /* JCCEmoticonGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCCEmoticonGroup.swift; sourceTree = "<group>"; };
@@ -393,7 +386,6 @@
 		B43F70301EA87F7C0076D5AF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		B43F70321EA87F910076D5AF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B43F70341EA87FA10076D5AF /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
-		B43F70361EA880280076D5AF /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		B43F70391EA883DA0076D5AF /* JCAddMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCAddMapViewController.h; sourceTree = "<group>"; };
 		B43F703A1EA883DA0076D5AF /* JCAddMapViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JCAddMapViewController.mm; sourceTree = "<group>"; };
 		B43F703D1EA883DA0076D5AF /* icon_baidu_marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_baidu_marker.png; sourceTree = "<group>"; };
@@ -503,7 +495,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B43F70371EA880280076D5AF /* libstdc++.6.0.9.tbd in Frameworks */,
 				B43BA43F1E8A30C400565DB3 /* CoreTelephony.framework in Frameworks */,
 				B43BA4391E8A30A900565DB3 /* SystemConfiguration.framework in Frameworks */,
 				B43BA4351E8A309300565DB3 /* Security.framework in Frameworks */,
@@ -679,8 +670,6 @@
 			isa = PBXGroup;
 			children = (
 				B43BA3761E8A2F0000565DB3 /* JChat */,
-				B43BA38B1E8A2F0000565DB3 /* JChatTests */,
-				B43BA3961E8A2F0000565DB3 /* JChatUITests */,
 				B43BA3751E8A2F0000565DB3 /* Products */,
 				B43BA3CB1E8A2FF500565DB3 /* ContacterModule */,
 				BE41FBEBCBE1C125EE86D68E /* Pods */,
@@ -710,24 +699,6 @@
 				B43BA3831E8A2F0000565DB3 /* Info.plist */,
 			);
 			path = JChat;
-			sourceTree = "<group>";
-		};
-		B43BA38B1E8A2F0000565DB3 /* JChatTests */ = {
-			isa = PBXGroup;
-			children = (
-				B43BA38C1E8A2F0000565DB3 /* JChatTests.swift */,
-				B43BA38E1E8A2F0000565DB3 /* Info.plist */,
-			);
-			path = JChatTests;
-			sourceTree = "<group>";
-		};
-		B43BA3961E8A2F0000565DB3 /* JChatUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B43BA3971E8A2F0000565DB3 /* JChatUITests.swift */,
-				B43BA3991E8A2F0000565DB3 /* Info.plist */,
-			);
-			path = JChatUITests;
 			sourceTree = "<group>";
 		};
 		B43BA3A51E8A2FF500565DB3 /* Resources */ = {
@@ -1205,7 +1176,6 @@
 		DDA5C80485C5FFA2C3776F21 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B43F70361EA880280076D5AF /* libstdc++.6.0.9.tbd */,
 				B43F70341EA87FA10076D5AF /* OpenGLES.framework */,
 				B43F70321EA87F910076D5AF /* QuartzCore.framework */,
 				B43F70301EA87F7C0076D5AF /* CoreLocation.framework */,
@@ -1239,7 +1209,7 @@
 				B43BA3711E8A2F0000565DB3 /* Frameworks */,
 				B43BA3721E8A2F0000565DB3 /* Resources */,
 				70DD9288AA08E1D9BCFEDE17 /* [CP] Embed Pods Frameworks */,
-				0B5A806B71DCC9E2A0842D61 /* [CP] Copy Pods Resources */,
+				444558C9FA649A9D8D7CD593 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1258,8 +1228,6 @@
 				B43BA3841E8A2F0000565DB3 /* Sources */,
 				B43BA3851E8A2F0000565DB3 /* Frameworks */,
 				B43BA3861E8A2F0000565DB3 /* Resources */,
-				00715A2C3CFA228CADC0057E /* [CP] Embed Pods Frameworks */,
-				1FAE9549CCFF93C6E1F21EA8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1279,8 +1247,6 @@
 				B43BA38F1E8A2F0000565DB3 /* Sources */,
 				B43BA3901E8A2F0000565DB3 /* Frameworks */,
 				B43BA3911E8A2F0000565DB3 /* Resources */,
-				88D8EA0CC18AE2D353694519 /* [CP] Embed Pods Frameworks */,
-				7D08DA5D74645CE234427439 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1305,7 +1271,7 @@
 				TargetAttributes = {
 					B43BA3731E8A2F0000565DB3 = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.Push = {
 								enabled = 1;
@@ -1387,52 +1353,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		00715A2C3CFA228CADC0057E /* [CP] Embed Pods Frameworks */ = {
+		444558C9FA649A9D8D7CD593 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JChatTests/Pods-JChatTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		0B5A806B71DCC9E2A0842D61 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-JChat/Pods-JChat-resources.sh",
-				"${PODS_ROOT}/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/Resources/mapapi.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-JChat/Pods-JChat-resources.sh",
+				"${PODS_ROOT}/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/mapapi.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mapapi.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JChat/Pods-JChat-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1FAE9549CCFF93C6E1F21EA8 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JChatTests/Pods-JChatTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JChat/Pods-JChat-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		70DD9288AA08E1D9BCFEDE17 /* [CP] Embed Pods Frameworks */ = {
@@ -1441,7 +1381,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-JChat/Pods-JChat-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-JChat/Pods-JChat-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
@@ -1462,37 +1402,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JChat/Pods-JChat-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7D08DA5D74645CE234427439 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JChatUITests/Pods-JChatUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		88D8EA0CC18AE2D353694519 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JChatUITests/Pods-JChatUITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JChat/Pods-JChat-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A0A5931D9F1014922BC7FEF8 /* [CP] Check Pods Manifest.lock */ = {
@@ -1748,7 +1658,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B43BA38D1E8A2F0000565DB3 /* JChatTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1756,7 +1665,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B43BA3981E8A2F0000565DB3 /* JChatUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1828,6 +1736,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -1875,6 +1784,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -1886,6 +1796,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = JChat/JChat.entitlements;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1904,7 +1815,9 @@
 					"-ObjC",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -D READ_VERSION";
+				PRODUCT_BUNDLE_IDENTIFIER = "face.chat-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/JChat/JChat-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
@@ -1917,6 +1830,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = JChat/JChat.entitlements;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1935,7 +1849,9 @@
 					"-ObjC",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -D READ_VERSION";
+				PRODUCT_BUNDLE_IDENTIFIER = "face.chat-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/JChat/JChat-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};

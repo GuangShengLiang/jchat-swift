@@ -101,9 +101,9 @@ extension JCSignatureViewController: UITextViewDelegate {
         if textView.markedTextRange == nil {
             let text = textView.text!
             if text.characters.count > 30 {
-                let range = Range<String.Index>(text.startIndex ..< text.index(text.startIndex, offsetBy: 30))
-                let subText = text.substring(with: range)
-                textView.text = subText
+//                let range = Range<String.Index>(text.startIndex ..< text.index(text.startIndex, offsetBy: 30))
+//                let subText = text.substring(with: range)
+//                textView.text = subText
             }
             let count = 30 - (textView.text?.characters.count)!
             tipLabel.text = "\(count)"
